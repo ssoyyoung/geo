@@ -5,10 +5,11 @@ import (
 	"encoding/csv"
 	"errors"
 	"fmt"
-	"gonum.org/v1/gonum/spatial/kdtree"
 	"io"
 	"os"
 	"strconv"
+
+	"gonum.org/v1/gonum/spatial/kdtree"
 )
 const (
 	geoCodeURL = "https://download.geonames.org/export/dump/cities1000.zip"
